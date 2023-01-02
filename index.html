@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>map and sets </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    Q1 Create a Function
+    <pre>
+        function Check(obj1){
+         obj1.setter = function () {
+           console.log(obj1.name);
+          };
+        
+        }
+ 
+</pre> Q2 Delete a Parameter
+    <pre>
+        function Check(obj1) {
+            delete obj1.rollno;
+            return obj1;
+          }        
+
+    </pre> Q3 Check whether the Package is Dream Package or not
+    <pre>
+        
+function Check(obj1) {
+    if(obj1.salary>500000){
+      return "Dream" 
+    }else {return "NotDream"}
+    }
+    
+
+    </pre> Q4 Check whether the Object has a parameter or not
+    <pre>
+        function Check(obj1) {
+            if(Object.keys(obj1).length>0){
+           return true;
+            }
+          else{
+            return false;
+          }
+        }
+
+    </pre> Q5 Merge the Objects
+    <pre>
+        
+function Check(obj1,obj2) {
+    let Bobj = {};
+    Bobj = Object.assign(obj1,obj2);
+    return Bobj;
+    }
+    
+ 
+    </pre> Q6 Object Multiplyer
+    <pre>
+        function Check(a,obj1) {
+            obj1.id=obj1.id*a;
+            obj1.houseno=obj1.houseno*a
+            return obj1
+            }
+ 
+    </pre> Q7 Find the sum of Object Members
+    <pre>
+        function Check(obj1) {
+            let nobj = obj1.p1+obj1.p2+obj1.p3
+            return nobj
+           }
+           
+    </pre> Q8 Check whether the Objects are same or not.
+    <pre>
+        function check(obj1,a,b) {
+ if (obj.name == a && obj.id == b) {
+    return "true"
+    }else {return "false"  }
+    }
+
+</pre>
+
+</body>
+
+</html>
